@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--color-primary);
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+.movie-nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.movie-nav-content h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.movie-nav-content a {
+  text-decoration: none;
+}
+
+.movie-contact-container {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.movie-link-name {
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 12px;
+}
