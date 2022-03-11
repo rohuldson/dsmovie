@@ -1,7 +1,12 @@
+import Pagination from "components/Pagination";
 import React from "react";
 
 function Listing() {
-  return <div></div>;
+  return (
+    <div>
+      <Pagination />
+    </div>
+  );
 }
 
 export default Listing;
