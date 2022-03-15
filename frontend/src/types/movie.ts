@@ -6,12 +6,13 @@ export type Movie = {
   image: string;
 };
 
-export type MoviePager = {
+export type MoviePage = {
   content: Movie[];
   last: boolean;
   totalPages: number;
   totalElements: number;
   size: number;
+  number: number;
   first: boolean;
   numverOfElements: number;
   empty: boolean;
